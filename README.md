@@ -40,47 +40,6 @@ By evaluating objective workforce signals in real time, the system provides HR l
 
 ---
 
-## 📁 Repository Structure
-
-```
-Employee-Attrition-Prediction/
-│
-├── attrition.csv                                # IBM HR Analytics dataset (1,470 records, 35 raw cols)
-├── employee_attrition_prediction.py             # Complete, reproducible Python pipeline script
-├── Employee_Attrition_Prediction.ipynb          # Interactive Jupyter Notebook with rich visuals & explanations
-├── requirements.txt                             # Python dependencies
-├── README.md                                    # Comprehensive project documentation
-├── DEMO_VIDEO_GUIDE.md                          # Video recording script, recording guide & sharing steps
-│
-├── Employee_Attrition_Prediction_Report.pdf     # Complete Project Academic Report (38 Pages)
-├── Employee_Attrition_Prediction_Report.docx    # Editable Word Document of the Project Report
-├── Employee_Attrition_Prediction_Presentation.pptx # 12-Slide PowerPoint Presentation Deck
-├── Employee_Attrition_Prediction_Presentation.pdf  # PDF Slide Deck
-│
-├── data/
-│   └── attrition.csv                            # Secondary copy of dataset
-│
-├── slides/                                      # Rendered presentation slides (PNG)
-│   ├── slide_page_39.png
-│   ├── slide_page_40.png
-│   ├── slide_page_41.png
-│   ├── slide_page_42.png
-│   ├── slide_page_43.png
-│   └── slide_page_44.png
-│
-└── visualizations/                              # Publication-grade diagnostic charts
-    ├── figure_1_class_distribution.png
-    ├── figure_2_income_distribution.png
-    ├── figure_3_correlation_heatmap.png
-    ├── figure_4_model_accuracy_comparison.png
-    ├── figure_5_roc_curves.png
-    ├── figure_6_confusion_matrix.png
-    ├── figure_7_knn_k_sensitivity.png
-    └── figure_8_feature_importances.png
-```
-
----
-
 ## 📊 Dataset Description
 
 - **Dataset Name:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
@@ -145,40 +104,6 @@ Continuous features are scaled using `StandardScaler` inside Scikit-learn **`Pip
 ### Prerequisites
 - Python 3.9, 3.10, 3.11, 3.12, or 3.13 installed.
 - Git installed.
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/your-username/Employee-Attrition-Prediction.git
-cd Employee-Attrition-Prediction
-```
-
-### Step 2: Create and Activate a Virtual Environment (Optional but Recommended)
-```bash
-# Windows
-python -m venv venv
-.\venv\Scripts\activate
-
-# Linux / macOS
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### Step 3: Install Required Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4: Run the Complete Machine Learning Pipeline
-```bash
-python employee_attrition_prediction.py
-```
-
-### Step 5: Run the Interactive Jupyter Notebook
-```bash
-jupyter notebook Employee_Attrition_Prediction.ipynb
-```
-
----
 
 ## 📈 Experimental Results & Performance Benchmarks
 
@@ -275,28 +200,3 @@ Inference Result:
 ```
 
 ---
-
-## 🎥 Project Presentation & Demo Video
-
-- **Presentation Slide Deck (PowerPoint):** [`Employee_Attrition_Prediction_Presentation.pptx`](./Employee_Attrition_Prediction_Presentation.pptx)
-- **Presentation Slide Deck (PDF):** [`Employee_Attrition_Prediction_Presentation.pdf`](./Employee_Attrition_Prediction_Presentation.pdf)
-- **Comprehensive Project Report (PDF):** [`Employee_Attrition_Prediction_Report.pdf`](./Employee_Attrition_Prediction_Report.pdf)
-- **Demo Video Recording Script & Guide:** [`DEMO_VIDEO_GUIDE.md`](./DEMO_VIDEO_GUIDE.md)
-- **Demo Video Link:** [Click to Watch Demo Video on YouTube](https://youtu.be/your-video-id) *(Please update with your unlisted YouTube or public Google Drive link)*
-
----
-
-## ⚖️ Ethical Governance & Practical Recommendations
-
-1. **Advisory Decision Support:** Model outputs must serve solely as early indicators to initiate supportive, empathetic check-ins, **never** for punitive action, compensation cuts, or automated termination.
-2. **Privacy First:** Modeling should rely on aggregate, consensual enterprise attributes, completely avoiding invasive surveillance of private employee communications.
-3. **Algorithmic Parity:** Protected demographics (Gender, MaritalStatus) must be audited continuously to avoid perpetuating legacy corporate biases.
-
----
-
-## 📜 Academic Declaration
-
-We hereby declare that this mini-project entitled **"Employee Attrition Prediction Using Machine Learning"** is our original work submitted for the Machine Learning Laboratory (Course Code: `25CSM201`) at MNR University.
-
-- **B. Sam Soloman** (`25RBAIM0021`)
-- **Thakur Narsingh Singh** (`25RBAIM0027`)
